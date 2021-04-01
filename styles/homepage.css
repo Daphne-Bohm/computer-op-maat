@@ -1,0 +1,210 @@
+/* INTRO HERO */
+.hero{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.hero-left > p{
+    margin: 20px 0;
+}
+
+.hero-img{
+    margin-top: 20px;
+}
+
+
+/* MAIN CONTENT */
+main{
+    z-index: 1;
+    position: relative;
+}
+
+
+/* VOORDELEN */
+.list__item__img{
+    background-color: var(--side-color);
+    padding: 1em;
+    border-radius: 20%;
+    width: 100px;
+    margin-bottom: 5px;
+}
+
+.voordelen{
+    position: relative;
+}
+
+.voordelen > p{
+    margin: 20px auto;
+}
+
+.list__item + .list__item{
+    margin-top: 20px;
+}
+
+.arrow-voordelen{
+    position: absolute;
+    right: 0;
+}
+
+#mail__list__img{
+    padding: 1.65em 1em;
+}
+
+#levering__list__img{
+    padding: 1.3em 1em;
+}
+
+
+/* OVER */
+.about{
+    position: relative;
+    text-align: center;
+}
+
+.about__title{
+    margin-bottom: 20px;
+}
+
+.samenvatting{
+    background-color: var(--side-color);
+    padding: 2em;
+    border-radius: 20px;
+    font-weight: bold;
+    color: var(--main-color);
+}
+
+.about__img{
+    margin: 20px 0;
+}
+
+.about__text{
+    max-width: 500px;
+    margin: auto;
+}
+
+.about__text--belangrijk{
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+.arrow-about{
+    position: absolute;
+    left: 100px;
+}
+
+/* WERKWIJZE */
+.werkwijze{
+    position: relative;
+}
+
+.werkwijze > p{
+    margin: 20px auto;
+}
+
+.arrow-werkwijze{
+    position: absolute;
+    right: 0;
+}
+
+.werkwijze-btn{
+    margin-top: 30px;
+}
+
+/* INTERESSE */
+.interesse > p{
+    margin: 20px auto;
+}
+
+
+/* MEDIA QUERIES */
+@media only screen and (min-width: 600px) {
+    /* voordelen & werkwijze */
+    .list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 788px;
+        margin: auto;
+    }
+    .list__item + .list__item{
+        margin-top: 0;
+    }
+    /* voordelen */
+    .voordelen{
+        margin-top: 4em;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    /*intro hero */
+    .hero{
+        text-align: initial;
+        padding-top: 50px 0;
+    }
+    .hero-left{
+        width: 50%;
+        padding: 0.5em 3em 0 0;
+        position: relative;
+    }
+    .img-container{
+        width: 50%;
+        max-width: 620px;
+        position: absolute;
+        right: 30px;
+        top: 93px;
+    }
+    /* over */
+    .about{
+        text-align: initial;
+    }
+    .about__title{
+        margin-bottom: 1.7em;
+    }
+    .about__content > *{
+        width: 50%;
+    }
+    .about__img{
+        margin: 0 0 10px 0;
+    }
+    .about__text{
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    /* intro hero */
+    .arrow{
+        display: block;
+    }
+    .arrow-hero{
+        position: absolute;
+        top: 110%;
+        left: 70%;
+    }
+    .hero-left{
+        padding: 5em 3em 0 0;
+    }
+    /* voordelen */
+    .voordelen > p{
+        margin: 50px auto;
+    }
+    /* werkwijze */
+    .werkwijze > p{
+        margin: 50px auto;
+    }
+    /* interesse */
+    .interesse > p{
+        margin: 50px auto;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    /* intro hero */
+    .arrow-hero{
+        top: 120%;
+    }
+    /* voordelen */
+    .voordelen{
+        margin-top: 10em;
+    }
+}

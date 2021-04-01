@@ -1,0 +1,55 @@
+main > p{
+    margin: 20px auto;
+}
+
+main{
+    flex-direction: column;
+    align-items: center;
+}
+
+.werkwijze__item{
+    border-left: 1px solid var(--main-color);
+    position: relative;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 30px;
+    width: 85%;
+}
+
+.werkwijze__nummer{
+    background-color: var(--main-color);
+    color: var(--light);
+    font-size: 16px;
+    padding: 20px;
+    height: 50px;
+    border-radius: 100%;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    position: absolute;
+    top: 0;
+    left: -35px;
+}
+
+.werkwijze__item h3{
+    margin-bottom: 20px;
+}
+
+.werkwijze__text{
+    max-width: 600px;
+    margin: 0;
+}
+
+.levering{
+    border-left: 0;
+}
+
+@media only screen and (min-width: 1000px) {
+    .werkwijze__item{
+        padding-left: 80px;
+        margin-left: 80px;
+    }
+
+}

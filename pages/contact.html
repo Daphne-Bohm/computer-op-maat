@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- META DESCRIPTION -->
+     <meta name="description" content="Computer Op Maat helpt u bij de bouw van uw nieuwe computer en houd daarbij rekening met uw wensen en uw budget. Neem contact met ons op." />
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/contact.css">
+    <title>Computer Op Maat</title>
+</head>
+<body>
+
+    <!-- HEADER -->
+        <header class="header">
+            <nav class="container d-flex-sm">
+                <h1 id="logo"><a href="/">Computer Op Maat</a></h1>
+                <div class="menu-btn d-flex-sm">
+                    <div class="menu-btn__burger"></div>
+                </div>
+                <div class="nav__list__container" id="nav__list__container">
+                    <ul class="nav__list d-flex-md">
+                        <li class="nav__item">
+                            <a href="../pages/werkwijze.html" class="nav__link">Werkwijze</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="../pages/contact.html" class="nav__link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <!-- MAIN CONTENT -->
+        <main class="container section d-flex-sm">
+            <h2 class="center">Contact</h2>
+            <p class="center">Heeft u een vraag of heeft u een computer wens? <br> Neem dan contact op en ik 
+                denk graag met u mee.</p>
+
+            <section class="contact">
+                <form class="d-flex-sm">
+                    <h3>Vul het contactformulier in</h3>
+                    <div class="form-group d-flex-sm">
+                        <label>Uw naam</label>
+                        <input name="naam" type="naam" class="form-control" placeholder="John Doe">
+                    </div>
+                    <div class="form-group d-flex-sm">
+                        <label>Uw e-mailadres</label>
+                        <input name="email" type="email" class="form-control" placeholder="john.doe@outlook.com">
+                    </div>
+                    <div class="form-group d-flex-sm">
+                        <label>Uw bericht</label>
+                        <textarea name="bericht" cols="30" rows="10" placeholder="Typ hier uw bericht..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-submit">Submit</button>
+                </form>
+                <img src="../img/contact-arrow.png" width="146" height="56" alt="pijl naar rechts illustratie" class="contact-arrow">
+                <aside>
+                    <h3>Of neem op een andere manier contact op</h3>
+                    <ul class="contact__links">
+                        <li class="contact__item d-flex-sm">
+                            <div class="contact__item__img d-flex-sm">
+                                <img src="../img/email.png" alt="neem contact op via email illustratie">
+                            </div>
+                            <div>
+                                <h4>E-mail:</h4>
+                                <p>info@computeropmaat.com</p>
+                            </div>
+                        </li>
+                        <li class="contact__item d-flex-sm">
+                            <div class="contact__item__img d-flex-sm">
+                                <img src="../img/mobiel.png" alt="neem contact op via telefoon illustratie">
+                            </div>
+                            <div>
+                                <h4>Telefonisch:</h4>
+                                <p>+31 60000000</p>
+                            </div>
+                        </li>
+                        <li class="contact__item d-flex-sm">
+                            <div class="contact__item__img d-flex-sm">
+                                <img src="../img/facebook.png" alt="Facebook logo">
+                            </div>
+                            <div>
+                                <h4>Facebook:</h4>
+                                <p>/ComputerOpMaat</p>
+                            </div>
+                        </li>
+                        <li class="contact__item d-flex-sm">
+                            <div class="contact__item__img d-flex-sm">
+                                <img src="../img/instagram.png" alt="Instagram logo">
+                            </div>
+                            <div>
+                                <h4>Instagram:</h4>
+                                <p>/ComputerOpMaat</p>
+                            </div>
+                        </li>
+                    </ul>
+                </aside>
+            </section>
+
+        </main>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="container">
+                <section class="footer__section d-flex-md">
+                    <div class="footer__section__item">
+                        <h3>Computer Op Maat</h3>
+                        <p id="footer__info">Computer Op Maat helpt u bij de bouw van uw nieuwe computer en houd daarbij rekening met uw wensen en uw budget.</p>
+                    </div>
+                    <div class="footer__section__item footer__menu">
+                        <h4>Menu</h4>
+                        <ul>
+                            <li><a href="../pages/werkwijze.html">Onze werkwijze</a></li>
+                            <li><a href="../pages/contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__section__item">
+                        <h4>Contact</h4>
+                        <ul>
+                            <li>info@computeropmaat.com</li>
+                            <li>+31 600000000</li>
+                            <ul class="footer__social d-flex-sm">
+                                <li class="footer__social__item"><a href="#"><img src="../img/facebook.png" alt="Link naar Facebook"></a></li>
+                                <li class="footer__social__item"><a href="#"><img src="../img/instagram.png" alt="Link naar Instagram"></a></li>
+                            </ul>
+                        </ul>
+                    </div>
+                </section>
+                <section class="footer__section d-flex-md footer__section__copy">
+                        <div class="footer__section__item"><a href="../pages/privacy.html">Privacyverklaring</a> | <a href="../pages/voorwaarden.html">Algemene Voorwaarden</a></div>
+                        <div class="footer__section__item"></div>
+                        <div class="footer__section__item">&copy;Copyright <span id="time"></span>, Computer Op Maat</div>
+                </section>
+            </div>
+        </footer>
+
+    <script src="../scripts/main.js"></script>
+</body>
+</html>
